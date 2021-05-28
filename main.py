@@ -71,7 +71,4 @@ edit_menu.add_command(label='Copy', command=copy)
 edit_menu.add_command(label='Paste', command=paste)
 menu_bar.add_cascade(label='Edit', menu=edit_menu)
 root.config(menu=menu_bar)
-
-
-
 root.mainloop()
